@@ -1,0 +1,26 @@
+{
+  "name": "learn-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/jest",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "James Meyers",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/koa": "^2.0.48",
+    "jest": "^24.7.1",
+    "ts-node": "^8.1.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
