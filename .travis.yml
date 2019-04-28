@@ -4,6 +4,7 @@ node_js:
 
 before_script:
   - . $HOME/.nvm/nvm.sh
+  - nvm install
   - nvm use
   - npm install
   - npm run build
